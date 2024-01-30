@@ -4,16 +4,28 @@ import java.util.Scanner;
 
 public class Main {
 
-//Parte 3
+    //Parte 2
+    //3) – Crear un getter para la siguiente función:
+    /*private int sumar(int a, int b) {
+        return a + b;
+    }*/
 
-    //1 – Crear un objeto de tipo perro que tenga unos métodos propios (ladrar, jugar)
+    /*public static void main(String[] args) {
+        int numero = Suma.getSuma(1, 8);
+        System.out.println("El numero es: " + numero);
+    }*/
+
+
+    //Parte 3
+
+    //1) – Crear un objeto de tipo perro que tenga unos métodos propios (ladrar, jugar)
     // y unos atributos heredados de la clase Animales (cantidad de patas, edad, pelaje)
 
         /*Perro perro1 = new Perro(4,8,"cafe");
         perro1.jugar();
         perro1.ladrar();*/
 
-    //2 – Crear un array de 5 números enteros y calcular el número más grande
+    //2) – Crear un array de 5 números enteros y calcular el número más grande
 
         /*List<Integer> listaNumeros = new ArrayList<>();
         int suma = 0;
@@ -27,8 +39,8 @@ public class Main {
 
         System.out.print("El numero mas grande es: " + numMayor);*/
 
-    /*//3 – Convertir las letras de una palabra de minúsculas a mayúsculas
-    public static void main(String[] args) {
+    //3) – Convertir las letras de una palabra de minúsculas a mayúsculas
+    /*public static void main(String[] args) {
         String letrasPalabra;
         String palabraMayuscula;
 
@@ -46,14 +58,5 @@ public class Main {
     public static String convertirTexto(String palabra) {
         return palabra.toUpperCase();
     }*/
-
-    //3 – Crear un getter para la siguiente función:
-   /* private int sumar(int a, int b){
-        return a + b;
-    }*/
-    public static void main(String[] args) {
-        int numero = Suma.getSuma(1,8);
-        System.out.println("El numero es: " + numero);
-    }
 
 }
